@@ -41,7 +41,7 @@ const mostrarDigimon = async () => {
 
             const cardText = document.createElement('p');
             cardText.classList.add('card-text');
-            cardText.textContent ='Nivel: ${digimon.level}';
+            cardText.textContent =`Nivel: ${digimon.level}`;
 
             cardBody.appendChild(cardTitle);
             cardBody.appendChild(cardText);
